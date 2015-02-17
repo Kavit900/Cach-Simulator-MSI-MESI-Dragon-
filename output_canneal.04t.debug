@@ -1,0 +1,1476 @@
+Number of Processors = 4
+
+
+***** DEBUG FILE *****
+
+*** Configuration 1:- ***
+
+Cache_Size = 256 Kb = 262144B
+assoc = 8
+blk_size = 64B
+
+(i) MSI:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	262144
+L1_ASSOC:	8
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MSI
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   215
+09. number of interventions:	 0
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   232
+09. number of interventions:	 0
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   226
+09. number of interventions:	 0
+10. number of invalidations:	 35
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   242
+09. number of interventions:	 0
+10. number of invalidations:	 32
+11. number of flushes:	 0
+
+
+(ii) MESI:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	262144
+L1_ASSOC:	8
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MESI
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 147
+08. number of memory transactions:   54
+09. number of interventions:	 43
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 146
+08. number of memory transactions:   66
+09. number of interventions:	 41
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 148
+08. number of memory transactions:   59
+09. number of interventions:	 38
+10. number of invalidations:	 35
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 121
+08. number of memory transactions:   95
+09. number of interventions:	 68
+10. number of invalidations:	 32
+11. number of flushes:	 0
+
+(iii) Dragon:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	262144
+L1_ASSOC:	8
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:		Dragon
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   201
+09. number of interventions:	 43
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   212
+09. number of interventions:	 41
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   207
+09. number of interventions:	 38
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   216
+09. number of interventions:	 68
+10. number of invalidations:	 0
+11. number of flushes:	 0
+
+
+*** Configuration 2:- ***
+
+Cache_Size = 512Kb = 524288B
+assoc = 8
+blb_size = 64B
+
+(i) MSI:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	524288
+L1_ASSOC:	8
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MSI
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   215
+09. number of interventions:	 0
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   232
+09. number of interventions:	 0
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   226
+09. number of interventions:	 0
+10. number of invalidations:	 35
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   242
+09. number of interventions:	 0
+10. number of invalidations:	 32
+11. number of flushes:	 0
+
+
+(ii) MESI:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	524288
+L1_ASSOC:	8
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MESI
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 147
+08. number of memory transactions:   54
+09. number of interventions:	 43
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 146
+08. number of memory transactions:   66
+09. number of interventions:	 41
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 148
+08. number of memory transactions:   59
+09. number of interventions:	 38
+10. number of invalidations:	 35
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 121
+08. number of memory transactions:   95
+09. number of interventions:	 68
+10. number of invalidations:	 32
+11. number of flushes:	 0
+
+(iii) Dragon:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	524288
+L1_ASSOC:	8
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:		Dragon
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   201
+09. number of interventions:	 43
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   212
+09. number of interventions:	 41
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   207
+09. number of interventions:	 38
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   216
+09. number of interventions:	 68
+10. number of invalidations:	 0
+11. number of flushes:	 0
+
+
+*** Configuration 3:- ***
+
+Cache_Size = 1Mb = 1000Kb = 1024000B
+assoc = 8
+blk_size = 64B
+
+(i) MSI:- 
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	1024000
+L1_ASSOC:	8
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MSI
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   215
+09. number of interventions:	 0
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   232
+09. number of interventions:	 0
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   226
+09. number of interventions:	 0
+10. number of invalidations:	 35
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   242
+09. number of interventions:	 0
+10. number of invalidations:	 32
+11. number of flushes:	 0
+
+
+(ii) MESI:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	1024000
+L1_ASSOC:	8
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MESI
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 147
+08. number of memory transactions:   54
+09. number of interventions:	 43
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 146
+08. number of memory transactions:   66
+09. number of interventions:	 41
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 148
+08. number of memory transactions:   59
+09. number of interventions:	 38
+10. number of invalidations:	 35
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 121
+08. number of memory transactions:   95
+09. number of interventions:	 68
+10. number of invalidations:	 32
+11. number of flushes:	 0
+
+
+(iii) Dragon:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	1024000
+L1_ASSOC:	8
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:		Dragon
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   201
+09. number of interventions:	 43
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   212
+09. number of interventions:	 41
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   207
+09. number of interventions:	 38
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   216
+09. number of interventions:	 68
+10. number of invalidations:	 0
+11. number of flushes:	 0
+
+
+*** Configuration 4:- ***
+
+Cache_Size = 2Mb = 2000Kb = 2048000B
+assoc = 8
+blk_size = 64B
+
+(i) MSI:- 
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	2048000
+L1_ASSOC:	8
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MSI
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   215
+09. number of interventions:	 0
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   232
+09. number of interventions:	 0
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   226
+09. number of interventions:	 0
+10. number of invalidations:	 35
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   242
+09. number of interventions:	 0
+10. number of invalidations:	 32
+11. number of flushes:	 0
+
+
+(ii) MESI:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	2048000
+L1_ASSOC:	8
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MESI
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 147
+08. number of memory transactions:   54
+09. number of interventions:	 43
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 146
+08. number of memory transactions:   66
+09. number of interventions:	 41
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 148
+08. number of memory transactions:   59
+09. number of interventions:	 38
+10. number of invalidations:	 35
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 121
+08. number of memory transactions:   95
+09. number of interventions:	 68
+10. number of invalidations:	 32
+11. number of flushes:	 0
+
+
+(iii) Dragon:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	2048000
+L1_ASSOC:	8
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:		Dragon
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   201
+09. number of interventions:	 43
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   212
+09. number of interventions:	 41
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   207
+09. number of interventions:	 38
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   216
+09. number of interventions:	 68
+10. number of invalidations:	 0
+11. number of flushes:	 0
+
+
+*** Configuration 5:- ***
+
+Cache_Size = 1Mb = 1024000Kb
+assoc = 4
+blk_size = 64B
+
+
+(i) MSI:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	1024000
+L1_ASSOC:	4
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MSI
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   215
+09. number of interventions:	 0
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   232
+09. number of interventions:	 0
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   226
+09. number of interventions:	 0
+10. number of invalidations:	 35
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   242
+09. number of interventions:	 0
+10. number of invalidations:	 32
+11. number of flushes:	 0
+
+(ii) MESI:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	1024000
+L1_ASSOC:	4
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MESI
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 147
+08. number of memory transactions:   54
+09. number of interventions:	 43
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 146
+08. number of memory transactions:   66
+09. number of interventions:	 41
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 148
+08. number of memory transactions:   59
+09. number of interventions:	 38
+10. number of invalidations:	 35
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 121
+08. number of memory transactions:   95
+09. number of interventions:	 68
+10. number of invalidations:	 32
+11. number of flushes:	 0
+
+
+(iii) Dragon:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	1024000
+L1_ASSOC:	4
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:		Dragon
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   201
+09. number of interventions:	 43
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   212
+09. number of interventions:	 41
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   207
+09. number of interventions:	 38
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   216
+09. number of interventions:	 68
+10. number of invalidations:	 0
+11. number of flushes:	 0
+
+
+*** Configuration 6:- ***
+
+Cache_Size = 1Mb = 1024000B
+assoc = 8
+blk_Size = 64B
+
+SAME AS CONFIGURATION 3
+
+*** Configuration 7:- ***
+
+Cache_Size = 1Mb = 1024000B
+assoc = 16
+blk_Size = 64B
+
+(i) MSI:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	1024000
+L1_ASSOC:	16
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MSI
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   215
+09. number of interventions:	 0
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   232
+09. number of interventions:	 0
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   226
+09. number of interventions:	 0
+10. number of invalidations:	 35
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   242
+09. number of interventions:	 0
+10. number of invalidations:	 32
+11. number of flushes:	 0
+
+
+
+(ii) MESI:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	1024000
+L1_ASSOC:	16
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MESI
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 147
+08. number of memory transactions:   54
+09. number of interventions:	 43
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 146
+08. number of memory transactions:   66
+09. number of interventions:	 41
+10. number of invalidations:	 34
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 148
+08. number of memory transactions:   59
+09. number of interventions:	 38
+10. number of invalidations:	 35
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 121
+08. number of memory transactions:   95
+09. number of interventions:	 68
+10. number of invalidations:	 32
+11. number of flushes:	 0
+
+
+(iii) Dragon:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	1024000
+L1_ASSOC:	16
+L1_BLOCKSIZE:	64
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:		Dragon
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 198
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   7.70706
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   201
+09. number of interventions:	 43
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 210
+03. number of writes:	 229
+04. number of write misses:	 2
+05. total miss rate:   8.24903
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   212
+09. number of interventions:	 41
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 205
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   7.81427
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   207
+09. number of interventions:	 38
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 216
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   9.94018
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   216
+09. number of interventions:	 68
+10. number of invalidations:	 0
+11. number of flushes:	 0
+
+
+*** Configuration 8:- ***
+
+SAME AS CONFIGURATION 3,6
+
+
+*** Configuration 9:- ***
+
+Cache_Size = 1Mb = 1024000
+assco = 8
+blk_size = 128B
+
+(i) MSI:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	1024000
+L1_ASSOC:	8
+L1_BLOCKSIZE:	128
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MSI
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 171
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   6.67178
+06. number of write backs:	 1
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   189
+09. number of interventions:	 1
+10. number of invalidations:	 34
+11. number of flushes:	 1
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 184
+03. number of writes:	 229
+04. number of write misses:	 1
+05. total miss rate:   7.19844
+06. number of write backs:	 2
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   206
+09. number of interventions:	 2
+10. number of invalidations:	 35
+11. number of flushes:	 2
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 181
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   6.90827
+06. number of write backs:	 1
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   202
+09. number of interventions:	 1
+10. number of invalidations:	 36
+11. number of flushes:	 1
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 191
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   8.78969
+06. number of write backs:	 1
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   217
+09. number of interventions:	 1
+10. number of invalidations:	 33
+11. number of flushes:	 1
+
+
+
+(ii) MESI:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	1024000
+L1_ASSOC:	8
+L1_BLOCKSIZE:	128
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MESI
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 171
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   6.67178
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 129
+08. number of memory transactions:   46
+09. number of interventions:	 38
+10. number of invalidations:	 34
+11. number of flushes:	 1
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 184
+03. number of writes:	 229
+04. number of write misses:	 1
+05. total miss rate:   7.19844
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 126
+08. number of memory transactions:   61
+09. number of interventions:	 39
+10. number of invalidations:	 35
+11. number of flushes:	 2
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 181
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   6.90827
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 129
+08. number of memory transactions:   55
+09. number of interventions:	 35
+10. number of invalidations:	 36
+11. number of flushes:	 1
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 191
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   8.78969
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 111
+08. number of memory transactions:   81
+09. number of interventions:	 55
+10. number of invalidations:	 33
+11. number of flushes:	 1
+
+
+(iii) Dragon:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	1024000
+L1_ASSOC:	8
+L1_BLOCKSIZE:	128
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:		Dragon
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 167
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   6.5184
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   170
+09. number of interventions:	 37
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 181
+03. number of writes:	 229
+04. number of write misses:	 1
+05. total miss rate:   7.08171
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   182
+09. number of interventions:	 37
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 177
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   6.75727
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   179
+09. number of interventions:	 34
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 187
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   8.60561
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   187
+09. number of interventions:	 54
+10. number of invalidations:	 0
+11. number of flushes:	 0
+
+
+
+*** Configuration 10:- ***
+
+Cache_Size = 1Mb = 1024000B
+assoc = 8
+blk_size = 256B
+
+
+(i) MSI:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	1024000
+L1_ASSOC:	8
+L1_BLOCKSIZE:	256
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MSI
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 155
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   6.05828
+06. number of write backs:	 1
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   173
+09. number of interventions:	 1
+10. number of invalidations:	 34
+11. number of flushes:	 1
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 170
+03. number of writes:	 229
+04. number of write misses:	 1
+05. total miss rate:   6.6537
+06. number of write backs:	 2
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   192
+09. number of interventions:	 2
+10. number of invalidations:	 35
+11. number of flushes:	 2
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 167
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   6.37977
+06. number of write backs:	 1
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   187
+09. number of interventions:	 1
+10. number of invalidations:	 36
+11. number of flushes:	 1
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 175
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   8.05338
+06. number of write backs:	 1
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   201
+09. number of interventions:	 1
+10. number of invalidations:	 33
+11. number of flushes:	 1
+
+
+(ii) MESI:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	1024000
+L1_ASSOC:	8
+L1_BLOCKSIZE:	256
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:	MESI
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 155
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   6.05828
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 118
+08. number of memory transactions:   41
+09. number of interventions:	 34
+10. number of invalidations:	 34
+11. number of flushes:	 1
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 170
+03. number of writes:	 229
+04. number of write misses:	 1
+05. total miss rate:   6.6537
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 116
+08. number of memory transactions:   57
+09. number of interventions:	 36
+10. number of invalidations:	 35
+11. number of flushes:	 2
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 167
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   6.37977
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 119
+08. number of memory transactions:   51
+09. number of interventions:	 33
+10. number of invalidations:	 36
+11. number of flushes:	 1
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 175
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   8.05338
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 103
+08. number of memory transactions:   73
+09. number of interventions:	 49
+10. number of invalidations:	 33
+11. number of flushes:	 1
+
+
+(iii) Dragon:-
+===== 506 SMP Simulator Configuration =====
+L1_SIZE:	1024000
+L1_ASSOC:	8
+L1_BLOCKSIZE:	256
+NUMBER OF PROCESSORS:	4
+COHERENCE PROTOCOL:		Dragon
+TRACE FILE:		Validation_runs/canneal.04t.debug
+===== Simulation results (Cache_0)      =====
+01. number of reads:	 2339
+02. number of read misses:	 151
+03. number of writes:	 269
+04. number of write misses:	 3
+05. total miss rate:   5.90491
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   154
+09. number of interventions:	 33
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_1)      =====
+01. number of reads:	 2341
+02. number of read misses:	 167
+03. number of writes:	 229
+04. number of write misses:	 1
+05. total miss rate:   6.53696
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   168
+09. number of interventions:	 34
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_2)      =====
+01. number of reads:	 2396
+02. number of read misses:	 163
+03. number of writes:	 253
+04. number of write misses:	 2
+05. total miss rate:   6.22877
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   165
+09. number of interventions:	 32
+10. number of invalidations:	 0
+11. number of flushes:	 0
+===== Simulation results (Cache_3)      =====
+01. number of reads:	 1969
+02. number of read misses:	 171
+03. number of writes:	 204
+04. number of write misses:	 0
+05. total miss rate:   7.86931
+06. number of write backs:	 0
+07. number of cache to cache transfers:	 0
+08. number of memory transactions:   171
+09. number of interventions:	 48
+10. number of invalidations:	 0
+11. number of flushes:	 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
